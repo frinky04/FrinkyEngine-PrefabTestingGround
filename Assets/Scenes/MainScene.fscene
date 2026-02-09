@@ -1,12 +1,12 @@
 {
   "name": "MainScene",
   "editorCameraPosition": {
-    "x": 20.36402,
-    "y": 13.2963,
-    "z": 7.74212
+    "x": 19.107727,
+    "y": 11.287871,
+    "z": 6.575793
   },
-  "editorCameraYaw": -1236.5961,
-  "editorCameraPitch": -30.499704,
+  "editorCameraYaw": -1230.5953,
+  "editorCameraPitch": -37.249744,
   "physics": {
     "gravity": {
       "x": 0,
@@ -2531,6 +2531,20 @@
             "LockRotationZ": false,
             "InterpolationMode": "Inherit"
           }
+        },
+        {
+          "$type": "PrefabTestingGround.Scripts.RotatorComponent",
+          "enabled": true,
+          "editorOnly": false,
+          "properties": {
+            "Speed": -45,
+            "Axis": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "Test": ""
+          }
         }
       ],
       "children": []
@@ -2654,7 +2668,7 @@
           "properties": {
             "LocalPosition": {
               "x": 10,
-              "y": 2.5009997,
+              "y": 2.501,
               "z": -5.5009995
             },
             "LocalRotation": {
@@ -2727,6 +2741,20 @@
             "LockRotationY": false,
             "LockRotationZ": false,
             "InterpolationMode": "Inherit"
+          }
+        },
+        {
+          "$type": "PrefabTestingGround.Scripts.RotatorComponent",
+          "enabled": true,
+          "editorOnly": false,
+          "properties": {
+            "Speed": 45,
+            "Axis": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "Test": ""
           }
         }
       ],
@@ -2872,6 +2900,20 @@
             "LockRotationZ": false,
             "InterpolationMode": "Inherit"
           }
+        },
+        {
+          "$type": "PrefabTestingGround.Scripts.RotatorComponent",
+          "enabled": true,
+          "editorOnly": false,
+          "properties": {
+            "Speed": 45,
+            "Axis": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "Test": ""
+          }
         }
       ],
       "children": []
@@ -3016,6 +3058,20 @@
             "LockRotationZ": false,
             "InterpolationMode": "Inherit"
           }
+        },
+        {
+          "$type": "PrefabTestingGround.Scripts.RotatorComponent",
+          "enabled": true,
+          "editorOnly": false,
+          "properties": {
+            "Speed": 45,
+            "Axis": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "Test": ""
+          }
         }
       ],
       "children": []
@@ -3159,6 +3215,20 @@
             "LockRotationY": false,
             "LockRotationZ": false,
             "InterpolationMode": "Inherit"
+          }
+        },
+        {
+          "$type": "PrefabTestingGround.Scripts.RotatorComponent",
+          "enabled": true,
+          "editorOnly": false,
+          "properties": {
+            "Speed": -45,
+            "Axis": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "Test": ""
           }
         }
       ],
