@@ -1,9 +1,9 @@
 {
-  "name": "Suzan (5)",
+  "name": "Suzan (2)",
   "sourcePrefab": "",
   "root": {
     "stableId": "8f211f8f80334123aef4f3e466ea5379",
-    "name": "Suzan (5)",
+    "name": "Suzan (2)",
     "active": true,
     "components": [
       {
@@ -48,7 +48,8 @@
           "LockPositionZ": false,
           "LockRotationX": false,
           "LockRotationY": false,
-          "LockRotationZ": false
+          "LockRotationZ": false,
+          "InterpolationMode": "Inherit"
         }
       },
       {
@@ -116,7 +117,7 @@
                 }
               ],
               "Tint": {
-                "r": 255,
+                "r": 227,
                 "g": 0,
                 "b": 0,
                 "a": 255

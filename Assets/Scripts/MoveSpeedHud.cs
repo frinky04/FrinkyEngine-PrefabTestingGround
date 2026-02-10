@@ -10,6 +10,7 @@ public class MoveSpeedHud : Component
 {
     private float Speed;
     private float SpeedPercent;
+    private bool Grounded;
     private CharacterControllerComponent? CharacterControllerComponent;
 
     public override void Start()
@@ -38,6 +39,7 @@ public class MoveSpeedHud : Component
 
         ctx.Text("Player Speed", 16);
         ctx.ProgressBar("health_bar", SpeedPercent, overlayText: $"{(int)(Speed*100)} cm/s");
+        ctx.Text($"Grounded: {Grounded}");
     }
     public override void Update(float dt)
     {
@@ -47,6 +49,7 @@ public class MoveSpeedHud : Component
             Velocity.Y = 0;
             Speed = Velocity.Length();
             SpeedPercent = Speed / (CharacterControllerComponent.MoveSpeed * 8);
+            Grounded = CharacterControllerComponent.IsOnFloor();
         }
          
         UI.Draw(DrawHud);

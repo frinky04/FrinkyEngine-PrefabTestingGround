@@ -1,35 +1,42 @@
 {
   "tags": [
     {
-      "name": "Test",
+      "name": "Crackhouse",
+      "color": "#5EFF4C"
+    },
+    {
+      "name": "Delete",
       "color": "#FF0C0C"
     },
     {
-      "name": "Test 2",
+      "name": "Placeholder",
       "color": "#4C99FF"
     }
   ],
   "assetTags": {
+    "Meshes/Gun.glb": [
+      "Crackhouse"
+    ],
     "Meshes/Monkey.glb": [
-      "Test"
+      "Delete"
     ],
     "Meshes/Monkey.obj": [
-      "Test"
+      "Delete"
     ],
     "Prefabs/Cylinder (1).fprefab": [
-      "Test"
+      "Delete"
     ],
     "Prefabs/Suzan.fprefab": [
-      "Test"
+      "Delete"
     ],
     "Scenes/MainScene.fscene": [
-      "Test 2"
+      "Placeholder"
     ],
     "Scripts/RotatorComponent.cs": [
-      "Test 2"
+      "Placeholder"
     ],
     "Textures/grid_lightchecker.PNG": [
-      "Test 2"
+      "Placeholder"
     ]
   }
 }

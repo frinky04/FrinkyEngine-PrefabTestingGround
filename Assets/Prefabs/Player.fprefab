@@ -18,7 +18,7 @@
         "editorOnly": false,
         "properties": {
           "Radius": 0.4,
-          "Length": 1.8,
+          "Length": 1.4,
           "Friction": 10,
           "Restitution": 0,
           "Center": {
@@ -45,7 +45,9 @@
             "x": -0,
             "y": -0,
             "z": -1
-          }
+          },
+          "CrouchHeightScale": 0.5,
+          "CrouchSpeedScale": 0.5
         }
       },
       {
@@ -95,11 +97,15 @@
           "DriveAttachedCamera": true,
           "AttachedCameraLocalOffset": {
             "x": 0,
-            "y": 0.9,
+            "y": 0,
             "z": 0
           },
           "AttachedCameraBackDistance": 0,
-          "CameraEntity": "7e2ac956-31cc-425f-88fc-6345525f8089"
+          "CameraEntity": "7e2ac956-31cc-425f-88fc-6345525f8089",
+          "CrouchKey": "LeftControl",
+          "AdjustCameraOnCrouch": true,
+          "CameraOffsetLerpSpeed": 5,
+          "StandingHeadHeight": 1.6
         }
       },
       {
@@ -122,7 +128,7 @@
             "properties": {
               "LocalPosition": {
                 "x": 0,
-                "y": 0.8236935,
+                "y": 0.9,
                 "z": 0
               },
               "LocalRotation": {

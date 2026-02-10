@@ -1,4 +1,5 @@
 using System.Numerics;
+using FrinkyEngine.Core.Assets;
 using FrinkyEngine.Core.ECS;
 using FrinkyEngine.Core.Rendering;
 
@@ -11,14 +12,11 @@ public class RotatorComponent : Component
     public Vector3 Axis { get; set; } = Vector3.UnitY;
     public EntityReference Test { get; set; }
 
+
     public override void Update(float dt)
     {
         var euler = Entity.Transform.EulerAngles;
         euler += Axis * Speed * dt;
         Entity.Transform.EulerAngles = euler;
-
-        if (Test.IsValid) {
-            FrinkyLog.Info($"Test: {Test.Resolve(Entity)?.Transform.WorldPosition}");
-        }
     }
 }
