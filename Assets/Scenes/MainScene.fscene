@@ -1,12 +1,12 @@
 {
   "name": "MainScene",
   "editorCameraPosition": {
-    "x": -6.885726,
-    "y": 1.9982576,
-    "z": -2.7271175
+    "x": 3.3128536,
+    "y": 6.025838,
+    "z": -0.94600356
   },
-  "editorCameraYaw": -889.6424,
-  "editorCameraPitch": -17.599676,
+  "editorCameraYaw": -661.64,
+  "editorCameraPitch": -30.649616,
   "physics": {
     "gravity": {
       "x": 0,
@@ -54,7 +54,7 @@
             "ResolutionX": 1,
             "ResolutionZ": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.25,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -231,7 +231,7 @@
             "Height": 1,
             "Depth": 3,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.2,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -322,7 +322,7 @@
             "Height": 1,
             "Depth": 3,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.2,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -413,7 +413,7 @@
             "Height": 1,
             "Depth": 3,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.2,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -504,7 +504,7 @@
             "Height": 1,
             "Depth": 3,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.2,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -595,7 +595,7 @@
             "Height": 1,
             "Depth": 3,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 0.2,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -637,6 +637,12 @@
               "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
               "propertyName": "Depth",
               "value": 1.5
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
@@ -694,7 +700,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -777,6 +783,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -831,7 +843,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -914,6 +926,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -962,7 +980,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -1045,6 +1063,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -1099,7 +1123,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -1182,6 +1206,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -1236,7 +1266,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -1319,6 +1349,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -1373,7 +1409,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
@@ -1512,7 +1548,7 @@
             "Height": 0.5,
             "Depth": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -1723,7 +1759,7 @@
             "Height": 5,
             "Depth": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -1881,7 +1917,7 @@
             "Height": 0.5,
             "Depth": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -2039,7 +2075,7 @@
             "Height": 0.5,
             "Depth": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -2197,7 +2233,7 @@
             "Height": 0.5,
             "Depth": 1,
             "MaterialType": "TriplanarTexture",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": false,
@@ -2294,6 +2330,12 @@
             },
             {
               "nodeId": "9e504672a3be442682cfaf8a305bddf8",
+              "componentType": "FrinkyEngine.Core.Components.CubePrimitive",
+              "propertyName": "TexturePath",
+              "value": "engine:Grid.PNG"
+            },
+            {
+              "nodeId": "9e504672a3be442682cfaf8a305bddf8",
               "componentType": "FrinkyEngine.Core.Components.BoxColliderComponent",
               "propertyName": "Size",
               "value": {
@@ -2342,7 +2384,7 @@
             "Height": 1.5,
             "Depth": 1.5,
             "MaterialType": "Textured",
-            "TexturePath": "Textures/grid_lightchecker.PNG",
+            "TexturePath": "engine:Grid.PNG",
             "TriplanarScale": 1,
             "TriplanarBlendSharpness": 4,
             "TriplanarUseWorldSpace": true,
